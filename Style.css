@@ -1,0 +1,138 @@
+﻿li {
+    display: inline;
+    border-right: 1px solid #ffffff;
+    float: right;
+}
+
+.active {
+    background-color: #8FC139;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+}
+
+    li a:hover {
+        background-color: #C2C2C2;
+    }
+
+
+
+
+
+a {
+    color: #ffffff;
+}
+
+
+
+
+
+.sectionOne {
+    background-color: #ffffff;
+    font-family: 'Bitter', serif;
+    column-count: 2;
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+h1 span {
+    color: white;
+    font-size: 24px;
+    font-family: 'Bitter', serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+h1 span.spacer {
+    padding: 0 5px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+
+
+
+
+#firstHeading {
+    text-align: center;
+    color: #000000;
+    font-size:25px;
+    column-span: none
+}
+
+.threeCols {
+    column-count: 3;
+    column-gap: 15px;
+    background-color: #ffffff;
+    font-family: 'Bitter', serif;
+}
+
+
+
+
+
+
+div image {
+    column-span: none; /*use "none" when you want it to span 1 column*/
+}
+
+#fullWidthP {
+    column-span: all;
+    text-align: center;
+    color: #000000;
+}
+
+div p {
+    column-span: none; /*use "none" when you want it to span 1 column*/
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+.downloadNow {
+    background-color: #8FC139;
+}
+
+#headerLeft {
+    text-align: left;
+    color: #ffffff;
+}
+
+
+
+
+.stubbornP {
+    margin-top: 0px;
+}
